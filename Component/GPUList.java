@@ -19,7 +19,7 @@ public class GPUList{
     gpuList.add("Graphics Card 9");
     gpuList.add("Graphics Card 10");
 
-    System.out.println("Number of GPU's available: " + cpuList.size());
+    System.out.println("Number of GPU's available: " + gpuList.size());
 
     System.out.println("List of GPU's: ");
     iter = gpuList.listIterator();

@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class peripheralsList{
+public class PeripheralsList{
   static public void main(String[] args){
     ArrayList<String> peripheralsList = new ArrayList<String>();
     Iterator<String> iter;

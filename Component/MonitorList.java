@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class monitorList{
+public class MonitorList{
   static public void main(String[] args){
     ArrayList<String> monitorList = new ArrayList<String>();
     Iterator<String> iter;
