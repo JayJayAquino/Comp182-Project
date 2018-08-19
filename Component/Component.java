@@ -14,7 +14,7 @@ public Component(){
 
   public void componentSelect(ArrayList<String> selectionList,
    ArrayList<String> cpuList,
-   ArrayList<Integer> priceList,
+   ArrayList<Integer> cpuPriceList,
    ArrayList<String> partsList,
    ArrayList<Integer> finalPriceList)
   {
@@ -35,7 +35,7 @@ public Component(){
       if (n == 3)
       {
         CPUList cpu = new CPUList();
-        cpu.cpu(ob.partsList, ob.finalPriceList, ob.cpuList, ob.priceList, ob.selectionList);
+        cpu.cpu(ob.partsList, ob.finalPriceList, ob.cpuList, ob.cpuPriceList, ob.selectionList);
       }else if(n == 11){
         System.out.println(partsList.size());
         // int partsListSize = partsList.size() - 1;
@@ -50,7 +50,7 @@ public Component(){
     {
 
       Component ob2 = new Component();
-      ob2.componentSelect(ob2.ob.selectionList, ob2.ob.cpuList, ob2.ob.priceList,ob2.ob.partsList, ob2.ob.finalPriceList);
+      ob2.componentSelect(ob2.ob.selectionList, ob2.ob.cpuList, ob2.ob.cpuPriceList,ob2.ob.partsList, ob2.ob.finalPriceList);
 
     }
 }
