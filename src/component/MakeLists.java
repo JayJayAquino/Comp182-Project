@@ -57,7 +57,8 @@ public class MakeLists {
 	     
 	     
 
-
+	    cpuList.add("Return to Select screen");
+	    cpuPriceList.add(0);
 	    cpuList.add("CPU1");
 	    cpuPriceList.add(1500);
 	    cpuList.add("CPU2");

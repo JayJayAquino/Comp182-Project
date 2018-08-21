@@ -15,9 +15,9 @@ public class CPUList{
 	   while(!exit){
 			System.out.println("List of CPU's: ");
 			System.out.println("[0]Return to Select screen");
-		   for(int i = 0; i < make.cpuList.size(); i++) {
-			   int number = i + 1;
-				System.out.println("[" + number + "]"+make.cpuList.get(i) + " price" + make.cpuPriceList.get(i));
+		   for(int i = 1; i < make.cpuList.size(); i++) {
+
+				System.out.println("[" + i + "]"+make.cpuList.get(i) + " price" + make.cpuPriceList.get(i));
 			}
 
 		   Scanner myScanner = new Scanner(System.in);
