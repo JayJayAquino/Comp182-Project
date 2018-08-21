@@ -1,0 +1,4 @@
+intel core i7
+7200RPM 1TB
+Nvidia 790
+15 inch
