@@ -1,2 +1,9 @@
 # Comp182-Project
-Final Project for Comp 182
+
+## GUI implementation
+- run login.java (login\login.java)
+- username: login
+- password: pass321
+
+## Full implementation
+- run Driver.java (src\component\Driver.java)
